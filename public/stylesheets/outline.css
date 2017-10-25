@@ -1,0 +1,82 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+
+
+.body{
+    align-self: center;
+    padding: 60px 40px 0px 40px;
+
+}
+div {
+    box-sizing:border-box;
+}
+div .uploadDocs{
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+
+div .documents{
+    min-height: 100%;
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+div .editor{
+    height: 100%;
+    width: 50%;
+    float: left;
+    border-right: solid darkgray 2px;
+    border-left: solid darkgray 2px;
+    padding: 8px 32px 8px 32px;
+    display: block;
+}
+
+div .annotations{
+    min-height: 100%;
+    width: 30%;
+
+    float: left;
+}
+
+
+div .documentsTitle{
+    text-align: center;
+    padding: 0px 0 8px 0;
+    font-weight: 600;
+    width: 20%;
+    float: left;
+
+}
+.editorTitle{
+    text-align: left;
+   padding: 0px 0 8px 0;
+    font-weight: 600;
+    width: 50%;
+    float: left;
+}
+.annotationsTitle{
+    text-align: left;
+    padding: 0px 0 8px 0;
+    font-weight: 600;
+    width: 30%;
+    float: left;
+}
+
+.singleDocument{
+    display: block;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-bottom: solid gray 1px;
+    border-top: solid gray 1px;
+}
+.headings{
+    border-bottom: solid 1px black;
+    border-top: solid 1px gray;
+    display: block;
+    height: 36px;
+
+}
