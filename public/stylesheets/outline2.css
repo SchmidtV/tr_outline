@@ -26,7 +26,7 @@ div .uploadDocs{
 }
 
 .leftCol{
-    padding: 8px 8px 8px 8px;
+    padding: 8px 0px 8px 0px;
     width: 20%;
     float: left;
     height: 100%;
@@ -42,14 +42,13 @@ div .uploadDocs{
     height: 100%;
     border-right: solid black 1px;
     border-left: solid black 1px;
-    min-width: 500px;
 }
 
 .rightCol{
     width: 20%;
     float: left;
     height: 100%;
-    padding: 8px 8px 8px 8px;
+    padding: 8px 0px 8px 0px;
 
 }
 
@@ -71,6 +70,8 @@ div .uploadDocs{
 
 .viewOptions{
     align-content: center;
+    padding-bottom: 10px;
+    border-bottom: solid lightgray 1px;
 }
 
 .all{
