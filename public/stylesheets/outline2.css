@@ -3,6 +3,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue"*/
 }
 
 
@@ -26,24 +27,26 @@ div .uploadDocs{
 
 .leftCol{
     padding: 8px 8px 8px 8px;
-    width: 25%;
+    width: 20%;
     float: left;
     height: 100%;
+
 }
 
 .midCol{
-    padding: 8px 16px 8px 16px;
+    padding: 8px 25px 8px 25px;
     text-align: justify;
     text-justify: inter-word;
-    width: 50%;
+    width: 60%;
     float: left;
     height: 100%;
-    border-right: solid black 2px;
-    border-left: solid black 2px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    min-width: 500px;
 }
 
 .rightCol{
-    width: 25%;
+    width: 20%;
     float: left;
     height: 100%;
     padding: 8px 8px 8px 8px;
@@ -53,10 +56,38 @@ div .uploadDocs{
 .headings{
     font-weight: 600;
     width: 100%;
-    border-top: solid lightgray 2px;
-    border-bottom: solid gray 2px;
+    border-top: solid lightgray 1px;
+    border-bottom: solid black 1px;
 }
 
+.singleDocument{
+    padding: 10px 10px 10px 20px;
+    border-bottom: solid darkgray 1px;
+    display: block;
+}
+.documentDescription{
+    font-size: 70%;
+}
+
+.viewOptions{
+    align-content: center;
+}
+
+.all{
+    display: block;
+    float: left;
+    border-right: solid gray 1px;
+    width: 30%;
+    box-sizing:border-box;
+    text-align: center;
+}
+.some{
+    display: block;
+    float: left;
+    width: 70%;
+    box-sizing:border-box;
+    text-align: center;
+}
 div .data{
     height: 100%;
     width: 100%;
